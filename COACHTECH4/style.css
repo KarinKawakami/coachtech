@@ -267,15 +267,17 @@ select {
 }
 
 .box2 {
-  position: absolute;
+  /* 削除 */
+  /* position: absolute; */
+  /* width: 1520px; */
   height: 500px;
-  width: 1520px;
   background-color: #000;
   background-position: center;
 }
 
 .box2 p {
-  margin-top: 150px;
+  /* 削除 */
+  /* margin-top: 150px; */
   margin-left: 200px;
   color: #ffffff;
   font-size: 25px;
@@ -314,23 +316,6 @@ select {
   margin-top: -180px;
 }
 
-#service {
-  margin-top: 650px;
-  height: 1100px;
-  background-color: #e2e2e2;
-}
-
-#service p {
-  position: relative;
-  z-index: -10px;
-  padding: 20px;
-  text-align: center;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: bold;
-  color: #000;
-}
-
 .box3 {
   position: relative;
   z-index: -10px;
@@ -345,94 +330,41 @@ select {
   position: relative;
   z-index: -20px;
   width: 600px;
-  margin-top: -60px;
+  margin-top: -150px;
   margin-left: 320px;
 }
 
-#service h1 {
-  position: relative;
-  z-index: -10px;
-  margin-top: -230px;
-  margin-left: 650px;
-  font-weight: bold;
+/* 以下追加したスタイルになります */
+#service {
+  margin-top: 200px;
+  background: #ccc;
 }
-
+#service img {
+  width: 50%;
+  height: auto;
+}
 #service h2 {
-  position: relative;
-  z-index: -10px;
-  margin-top: 20px;
-  margin-left: 650px;
-  font-weight: normal;
-}
-
-#service h3 {
-  position: relative;
-  z-index: -10px;
-  margin-top: 20px;
-  margin-left: 650px;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 25px;
-}
-
-.button3 {
-  position: relative;
-  z-index: -10px;
-  height: 30px;
-  width: 130px;
-  margin-top: 20px;
-  margin-left: 650px;
-  background-color: #ffffff;
-  border: solid 1px #333;
-}
-
-.button3 h4 {
   text-align: center;
-  padding: 8px 0;
-  font-weight: normal;
-  font-size: 14px;
+  font-size: 24px;
 }
-
-.box4 {
+#service .content {
   position: relative;
-  z-index: -10px;
-  margin-top: -300px;
-  margin-left: 500px;
-  height: 280px;
-  width: 500px;
-  background-color: #ffffff;
+  padding-bottom: 200px;
 }
-
-h1 {
-  font-weight: bold;
+#service .camera {
+  display: block;
+  margin-left: auto;
 }
-
-h2 {
-  position: relative;
-  z-index: -10px;
-  font-weight: normal;
+#service .card {
+  width: 30%;
+  padding: 50px;
+  background: #fff;
+  position: absolute;
+  top: 80px;
 }
-
-h3 {
-  position: relative;
-  z-index: -10px;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 25px;
+.first-card {
+  right: 600px;
 }
-
-.button4 {
-}
-
-.button4 h4 {
-  text-align: center;
-  padding: 8px 0;
-  font-weight: normal;
-  font-size: 14px;
-}
-
-img {
-  position: relative;
-  z-index: -20px;
-  width: 600px;
+.second-card {
+  left: 600px;
 }
