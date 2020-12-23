@@ -1,99 +1,170 @@
 @charset "utf-8";
 
 /* リセットcss */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body {
-    line-height:1;
+  line-height: 1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 nav ul {
-    list-style:none;
+  list-style: none;
 }
 
-blockquote, q {
-    quotes:none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
 
 /* change colours to suit your needs */
 mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
 }
 
 del {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
 table {
-    border-collapse:collapse;
-    border-spacing:0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
 hr {
-    display:block;
-    height:1px;
-    border:0;  
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
-input, select {
-    vertical-align:middle;
+input,
+select {
+  vertical-align: middle;
 }
 
 .header {
@@ -115,10 +186,9 @@ input, select {
   line-height: 70px;
 }
 
-.header-nav ul{
+.header-nav ul {
   display: flex;
 }
-
 
 .header-nav li {
   margin-right: 35px;
@@ -148,8 +218,6 @@ input, select {
   line-height: 1;
 }
 
-
- 
 #eyecatch .box1 {
   position: absolute;
   top: 90%;
@@ -166,7 +234,7 @@ input, select {
   font-size: 10px;
   font-style: normal;
   font-weight: normal;
-  color:#000
+  color: #000;
 }
 
 #eyecatch .box1 h2 {
@@ -176,10 +244,10 @@ input, select {
   font-size: 10px;
   font-style: normal;
   font-weight: normal;
-  color: #000
+  color: #000;
 }
 
-#eyecatch .box2 {
+#eyecatch .button1 {
   position: absolute;
   top: 90%;
   right: 0%;
@@ -188,47 +256,184 @@ input, select {
   height: 60px;
 }
 
-#eyecatch .box2 h3 {
+#eyecatch .button1 h3 {
   position: absolute;
   top: 40%;
   left: 50%;
   font-size: 10px;
   font-style: normal;
   font-weight: normal;
-  color: #ffffff
+  color: #ffffff;
 }
 
-
-
-.box3 {
-  height: 400px;
-  weight: 500px;
+.box2 {
+  position: absolute;
+  height: 500px;
+  width: 1520px;
   background-color: #000;
   background-position: center;
-  position: relative;
 }
 
-.box3 p {
-  position: absolute;
-  color:#ffffff;
-  top: 40%;
-  left: 15%;
+.box2 p {
+  margin-top: 150px;
+  margin-left: 200px;
+  color: #ffffff;
   font-size: 25px;
   font-style: bold;
 }
 
-.box3 h1 {
-  position: absolute;
+.box2 h1 {
+  position: relative;
+  z-index: 30;
+  margin-top: 30px;
+  margin-left: 200px;
   color: #ffffff;
-  top: 55%;
-  left: 15%;
   font-size: 15px;
   width: 900px;
   line-height: 25px;
 }
 
-.box4 {
-  height: 50px;
-  weight: 50px;
+.button2 {
+  margin-top: 30px;
+  margin-left: 200px;
+  height: 30px;
+  width: 130px;
   background-color: #ffffff;
+}
+
+.button2 h2 {
+  text-align: center;
+  padding: 8px 0;
+  color: #000;
+  font-weight: normal;
+}
+
+.box2 img {
+  width: 600px;
+  margin-left: 630px;
+  margin-top: -180px;
+}
+
+#service {
+  margin-top: 650px;
+  height: 1100px;
+  background-color: #e2e2e2;
+}
+
+#service p {
+  position: relative;
+  z-index: -10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  color: #000;
+}
+
+.box3 {
+  position: relative;
+  z-index: -10px;
+  margin-top: 80px;
+  margin-left: 600px;
+  height: 280px;
+  width: 500px;
+  background-color: #ffffff;
+}
+
+.box3 img {
+  position: relative;
+  z-index: -20px;
+  width: 600px;
+  margin-top: -150px;
+  margin-left: 320px;
+}
+
+#service h1 {
+  position: relative;
+  z-index: -10px;
+  margin-top: -230px;
+  margin-left: 650px;
+  font-weight: bold;
+}
+
+#service h2 {
+  position: relative;
+  z-index: -10px;
+  margin-top: 20px;
+  margin-left: 650px;
+  font-weight: normal;
+}
+
+#service h3 {
+  position: relative;
+  z-index: -10px;
+  margin-top: 20px;
+  margin-left: 650px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.button3 {
+  position: relative;
+  z-index: -10px;
+  height: 30px;
+  width: 130px;
+  margin-top: 20px;
+  margin-left: 650px;
+  background-color: #ffffff;
+  border: solid 1px #333;
+}
+
+.button3 h4 {
+  text-align: center;
+  padding: 8px 0;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.box4 {
+  position: relative;
+  z-index: -10px;
+  margin-top: -300px;
+  margin-left: 500px;
+  height: 280px;
+  width: 500px;
+  background-color: #ffffff;
+}
+
+#service h1 {
+  font-weight: bold;
+}
+
+#service h2 {
+  position: relative;
+  z-index: -10px;
+  font-weight: normal;
+}
+
+#service h3 {
+  position: relative;
+  z-index: -10px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.button4 {
+}
+
+.button4 h4 {
+  text-align: center;
+  padding: 8px 0;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+img {
+  padding: 100px;
+  position: relative;
+  z-index: -20px;
+  width: 600px;
 }
