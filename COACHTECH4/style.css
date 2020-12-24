@@ -368,3 +368,23 @@ select {
 .second-card {
   left: 600px;
 }
+
+.company img {
+  width: 30%;
+}
+
+.company p {
+}
+
+.company h1 {
+}
+
+.recruit img {
+  width: 30%;
+}
+
+.recruit p {
+}
+
+.recruit h1 {
+}
