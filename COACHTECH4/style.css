@@ -477,8 +477,8 @@ select {
 
 #contact .button3 {
   margin-top: 30px;
-  margin-left: 550px;
-  height: 20px;
+  margin-left: 560px;
+  height: 100px;
   width: 400px;
   background-color: #ffffff;
 }
@@ -488,4 +488,45 @@ select {
   color: #fff;
   font-weight: normal;
   font-size: 16px;
+}
+
+.footer {
+  margin-top: 100px;
+  height: 100px;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 16px;
+  display: flex;
+  color: #f2f2f2;
+}
+
+.footer-nav ul {
+  margin-top: -50px;
+  margin-left: 1050px;
+  display: flex;
+  color: #fff;
+}
+
+.footer-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer h2 {
+  margin-left: 600px;
+  margin-top: 50px;
+  font-size: 12px;
+  color: #fff;
 }
