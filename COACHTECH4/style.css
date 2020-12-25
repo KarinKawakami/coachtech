@@ -460,7 +460,8 @@ select {
 }
 
 #FAQ p {
-  padding-top: 35px;
+  margin-top: 200px;
+  padding-top: 30px;
   padding-left: 30px;
   font-size: 30px;
   color: #fff;
@@ -468,14 +469,15 @@ select {
 
 #FAQ h1 {
   margin-top: -20px;
-  margin-left: 430px;
   font-size: 16px;
   color: #ffffff;
+  text-align: center;
 }
 
 #contact {
   background: url(img/contact-bg.jpg);
-  width: 964.8px;
+  margin-top: 150px;
+  width: 1517px;
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -483,14 +485,15 @@ select {
 }
 
 #contact p {
-  padding-top: 200px;
-  padding-left: 500px;
-  font-size: 16px;
+  margin-top: 50px;
+  font-size: 18px;
   color: #fff;
+  text-align: center;
 }
 
 #contact .button3 p {
-  padding-left: 200px;
+  margin-left: 680px;
+  width: 150px;
   text-align: center;
   color: #fff;
   font-weight: normal;
@@ -499,7 +502,6 @@ select {
 }
 
 .footer {
-  margin-top: 100px;
   height: 100px;
   background-color: #000000;
   background-size: cover;
