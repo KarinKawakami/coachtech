@@ -201,7 +201,7 @@ select {
 
 #eyecatch {
   height: 600px;
-  background: url(../img/eyecatch.jpg) no-repeat;
+  background: url(img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -369,28 +369,123 @@ select {
   left: 600px;
 }
 
-#information .company {
+#information .company img {
   display: flex;
   justify-content: space-between;
-  width: 80px;
-  height: 80px;
+  width: 750px;
+  height: 200px;
+  margin-top: 100px;
 }
 
 .company p {
+  margin-top: -130px;
+  margin-left: 310px;
+  font-size: 30px;
+  color: #ffffff;
 }
 
 .company h1 {
+  margin-top: 10px;
+  margin-left: 340px;
+  font-size: 16px;
+  color: #fff;
 }
 
-#information .recruit {
+#information .recruit img {
   display: flex;
   justify-content: space-between;
-  width: 80px;
-  height: 80px;
+  width: 750px;
+  height: 200px;
+  margin-top: -125px;
+  margin-left: 770px;
 }
 
 .recruit p {
+  margin-top: -130px;
+  margin-left: 1100px;
+  font-size: 30px;
+  color: #fff;
 }
 
 .recruit h1 {
+  margin-top: 10px;
+  margin-left: 1120px;
+  font-size: 16px;
+  color: #fff;
+}
+
+#FAQ {
+  margin-top: 180px;
+  margin-left: 180px;
+  width: 1200px;
+  height: 100px;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#FAQ p {
+  padding-top: 35px;
+  margin-left: 30px;
+  font-size: 30px;
+  color: #fff;
+}
+
+#FAQ h1 {
+  margin-top: -20px;
+  margin-left: 530px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#contact img {
+  display: flex;
+  justify-content: space-between;
+  width: 1520px;
+  height: 600px;
+  margin-top: 100px;
+}
+
+#contact h1 {
+  margin-top: -450px;
+  margin-left: 700px;
+  font-size: 30px;
+  color: #fff;
+}
+
+#contact h2 {
+  margin-top: 10px;
+  margin-left: 710px;
+  font-size: 16px;
+  color: #fff;
+}
+
+#contact h3 {
+  margin-top: 30px;
+  margin-left: 630px;
+  font-size: 20px;
+  color: #fff;
+}
+
+#contact h4 {
+  margin-top: 30px;
+  margin-left: 320px;
+  font-size: 12px;
+  color: #fff;
+}
+
+#contact .button3 {
+  margin-top: 30px;
+  margin-left: 550px;
+  height: 20px;
+  width: 400px;
+  background-color: #ffffff;
+}
+
+#contact .button3 h5 {
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  font-size: 16px;
 }
