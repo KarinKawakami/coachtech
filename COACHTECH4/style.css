@@ -278,6 +278,7 @@ select {
 .box2 p {
   /* 削除 */
   /* margin-top: 150px; */
+  padding-top: 180px;
   margin-left: 200px;
   color: #ffffff;
   font-size: 25px;
@@ -340,8 +341,8 @@ select {
   background: #ccc;
 }
 #service img {
-  width: 50%;
-  height: auto;
+  width: 45%;
+  height: 500px;
 }
 #service h2 {
   text-align: center;
@@ -356,17 +357,50 @@ select {
   margin-left: auto;
 }
 #service .card {
-  width: 30%;
-  padding: 50px;
+  width: 35%;
+  height: 250px;
+  padding: 60px;
   background: #fff;
   position: absolute;
-  top: 80px;
+  top: 65px;
 }
 .first-card {
-  right: 600px;
+  right: 500px;
 }
+.first-card h3 {
+  padding: 15px;
+  font-size: 16px;
+}
+.first-card p {
+  font-size: 13.5px;
+  padding: 13px;
+  padding-left: 15px;
+  line-height: 20px;
+}
+
+.button p {
+  margin-left: 420px;
+  border: solid 1px #000;
+}
+
 .second-card {
-  left: 600px;
+  left: 500px;
+}
+.second-card h3 {
+  padding: 15px;
+  font-size: 16px;
+}
+
+.second-card p {
+  font-size: 13.5px;
+  padding: 13px;
+  padding-left: 20px;
+  line-height: 20px;
+}
+
+.button p {
+  margin-left: 413px;
+  border: solid 1px #000;
 }
 
 #information .company img {
@@ -475,19 +509,13 @@ select {
   color: #fff;
 }
 
-#contact .button3 {
-  margin-top: 30px;
-  margin-left: 560px;
-  height: 100px;
-  width: 400px;
-  background-color: #ffffff;
-}
-
 #contact .button3 h5 {
+  margin-top: 30px;
   text-align: center;
   color: #fff;
   font-weight: normal;
   font-size: 16px;
+  border: solid 1px #fff;
 }
 
 .footer {
