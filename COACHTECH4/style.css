@@ -369,8 +369,11 @@ select {
   left: 600px;
 }
 
-.company img {
-  width: 30%;
+#information .company {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  height: 80px;
 }
 
 .company p {
@@ -379,8 +382,11 @@ select {
 .company h1 {
 }
 
-.recruit img {
-  width: 30%;
+#information .recruit {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  height: 80px;
 }
 
 .recruit p {
