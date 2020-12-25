@@ -473,44 +473,22 @@ select {
   color: #ffffff;
 }
 
-#contact img {
-  display: flex;
-  justify-content: space-between;
+#contact {
+  padding-top: 200px;
+  background: url(img/contact-bg.jpg);
   width: 1520px;
   height: 600px;
-  margin-top: 100px;
 }
 
-#contact h1 {
-  margin-top: -450px;
-  margin-left: 700px;
-  font-size: 30px;
-  color: #fff;
-}
-
-#contact h2 {
-  margin-top: 10px;
-  margin-left: 710px;
+#contact p {
+  padding-top: 200px;
+  padding-left: 500px;
   font-size: 16px;
   color: #fff;
 }
 
-#contact h3 {
-  margin-top: 30px;
-  margin-left: 630px;
-  font-size: 20px;
-  color: #fff;
-}
-
-#contact h4 {
-  margin-top: 30px;
-  margin-left: 320px;
-  font-size: 12px;
-  color: #fff;
-}
-
-#contact .button3 h5 {
-  margin-top: 30px;
+#contact .button3 p {
+  padding-left: 200px;
   text-align: center;
   color: #fff;
   font-weight: normal;
