@@ -578,4 +578,9 @@ select {
 .child li {
   display: inline;
   margin-right: 20px;
+  color: #fff;
+}
+
+.child a {
+  color: #fff;
 }
