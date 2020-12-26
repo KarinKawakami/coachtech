@@ -475,6 +475,7 @@ body {
   color: #fff;
 }
 
+
 .footer-bar {
   height: 70px;
   line-height: 70px;
@@ -594,28 +595,47 @@ body {
 .news_title {
   flex-wrap: wrap;
   width: 70%;
+  margin-left: 50px;
 }
 
 .mission_title {
   flex-wrap: wrap;
   width: 80%;
+  margin-left: 50px;
 }
 
 .mission_text {
   flex-wrap: wrap;
   width: 80%;
+  margin-left: 50px;
 }
 
+.common-btn a {
+  margin-left: 50px;
+  padding: 100px;
+}
 .contact-subtitle {
   flex-wrap: wrap;
   width: 80%;
+  margin-left: 45px;
+}
+
+.faq-title {
+ margin-left: 5px;
 }
 
 .contact-text {
   flex-wrap: wrap;
   width: 75%;
+  margin-left: 50px;
+}
+
+.common-btn a {
+  margin-left: 200px;
 }
 
 .top-footer small {
+  flex-wrap: wrap;
   width: 120%;
+  margin-left: 50px;
 }
