@@ -548,7 +548,7 @@ select {
 /* ------------- */
 
 #footer {
-  height: 100px;
+  height: 120px;
   background-color: #000000;
   background-size: cover;
   background-position: center;
@@ -565,6 +565,7 @@ select {
   color: #fff;
   display: flex;
   font-size: 18px;
+  padding: 25px;
 }
 
 .child p {
