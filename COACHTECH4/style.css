@@ -588,6 +588,9 @@ body {
 .catchcopy {
   flex-wrap: wrap;
   width: 70%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 
@@ -595,37 +598,51 @@ body {
 .news_title {
   flex-wrap: wrap;
   width: 70%;
-  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mission_title {
   flex-wrap: wrap;
   width: 80%;
-  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mission_text {
   flex-wrap: wrap;
   width: 80%;
-  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mission-content a {
-  margin-left:  50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact-subtitle {
   flex-wrap: wrap;
   width: 80%;
-  margin-left: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq-title {
- margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-text {
   flex-wrap: wrap;
   width: 75%;
-  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
