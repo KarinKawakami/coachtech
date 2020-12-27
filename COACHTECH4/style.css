@@ -593,56 +593,51 @@ body {
   align-items: center; 
 }
 
-
+#news_content {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
 
 .news_title {
   flex-wrap: wrap;
   width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }
+
+
 
 .mission_title {
   flex-wrap: wrap;
   width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .mission_text {
   flex-wrap: wrap;
   width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .mission-content a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 10%;
 }
+
 .contact-subtitle {
   flex-wrap: wrap;
   width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .faq-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .contact-text {
   flex-wrap: wrap;
   width: 75%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }
 
