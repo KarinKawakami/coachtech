@@ -610,9 +610,8 @@ body {
   margin-left: 50px;
 }
 
-.common-btn a {
-  margin-left: 50px;
-  padding: 100px;
+.mission-content a {
+  margin-left:  50px;
 }
 .contact-subtitle {
   flex-wrap: wrap;
@@ -630,12 +629,3 @@ body {
   margin-left: 50px;
 }
 
-.common-btn a {
-  margin-left: 200px;
-}
-
-.top-footer small {
-  flex-wrap: wrap;
-  width: 120%;
-  margin-left: 50px;
-}
